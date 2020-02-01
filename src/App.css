@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Candara;
+}
+
+.towerWrapper {
+    width: 90vh;
+    margin: 0 auto;
+}
+
+.towers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.platform {
+    width: 100%;
+    height: 5vh;
+    background-color: #663300;
+    border-radius: 3px;
+}
+
+.spindle {
+
+    width: 30%;
+    min-height: 50vh;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.spindlePost {
+    width: 10px;
+    height: 10vh;
+    background-color: #CCCCCC;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.block {
+    height: 25px;
+}
+
+.blockEdge {
+    height: 4px;
+    border-radius: 2px;
+    box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.1), 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
